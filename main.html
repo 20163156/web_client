@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="main.css">
+	<title>JIYEON'S RECOMMENDED RESTAURANT</title>
+	<meta charset="UTF-8">
+	<meta name="purpose" content="Web Clienting Project-1">
+	<meta name="description" content="I introduce a delicious restaurant that I went to">
+	<meta name="author" content="Jiyeon Jeoung">
+ 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+
+
+</head>
+<body onload = "load()">
+	
+	<h1>JIYEON'S RECOMMENDED RESTAURANT</h1>
+	<img class="zindex" src="title.jpg" width="1535" height="220" alt="title-background image">
+
+	<nav>
+	  <ul>
+		<li><a href="main.html">HOME</a></li>
+	  	<li><a href="inkmu.html"><abbr title="KookMin University">IN KMU</abbr></a></li>
+		<li><a href="inseoul.html">IN SEOUL</a></li>
+		<li><a href="inbucheon.html">IN BUCHEON</a></li>
+		<li><a href = "input.html"> RESEARCH </a></li>
+	  </ul>
+     	</nav>
+	
+	<div class="polaroid">
+	  <img id="img" src="kmu1.JPG" title="inkmu" alt="inkmu" width=100% >
+	  <div class="container">
+		<p id ="demo1">Get more infomation!</p>
+		<button type="button" onclick='pagekmu()'>Click Me!</button>
+
+	  </div>
+	</div>
+	
+	<div class="polaroid">
+	  <img id = "img2" src="bucheon-1.JPG" title="inbucheon" alt="inbucheon" width=100% >
+	  <div class="container">
+		<p id ="demo2">Get more infomation!</p>
+		<button type="button" onclick='pagebucheon()'>Click Me!</button>
+	  </div>
+	</div>
+
+	<div class="polaroid">
+	  <img id = "img3"src="seoul-3.JPG" title="inseoul" alt="inseoul" width=100% >
+	  <div class="container">
+		<p id ="demo3">Get more infomation!</p>
+		<button type="button" onclick='pageseoul()'>Click Me!</button>
+
+	  </div>
+	  </div>
+	</div>
+
+	<div class="polaroid">
+	  <img id = "img4" src="seoul-5.JPG" title="inseoul" alt="inseoul" width=100% >
+	  <div class="container">
+		<p id ="demo4">Get more infomation!</p>
+		<button type="button" onclick='pageseoul2()'>Click Me!</button>
+
+	  </div>
+	</div>
+	
+	<details>
+	      <summary>NOTE</summary>
+		The foods on this page are the foods that the author went to eat.<br>
+		So please understand that the area is limited :)
+	</details> 
+	
+	
+	<script type = "text/javascript" src = "main.js"></script>
+
+</body>
+</html>
